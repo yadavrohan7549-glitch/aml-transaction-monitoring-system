@@ -1,0 +1,26 @@
+# Generated data / outputs - regenerate with `python main.py`
+data/raw/*.csv
+data/generated/*
+database/*.db
+models/*.joblib
+reports/*.xlsx
+charts/*.png
+
+# Keep folder structure in git
+!data/raw/.gitkeep
+!data/generated/.gitkeep
+!database/.gitkeep
+!models/.gitkeep
+!reports/.gitkeep
+!charts/.gitkeep
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+.venv/
+venv/
+
+# OS
+.DS_Store
